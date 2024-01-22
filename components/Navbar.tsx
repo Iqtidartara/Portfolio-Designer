@@ -1,32 +1,37 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <section className='w-full'>
-        <main className='mx-auto max-w-[80rem] py-[20px] flex items-center justify-between'>
+    <section className='w-full bg-white shadow-md'>
+      <main className='mx-auto max-w-[80rem] py-4 md:py-6 flex items-center justify-between'>
+        {/* Left section */}
+        <div className='flex items-center space-x-2 md:space-x-4'>
+          <Image src="/mail.png" alt='mail' width={46} height={46} className='w-fit h-fit' />
+          <Link href="https://www.upwork.com/nx/find-work/best-matches" className='underline text-[#080415] font-semibold text-lg leading-tight md:text-xl md:leading-snug'>hussainiqtidar80@gmail.com</Link>
+        </div>
 
-            <div className='flex gap-2 items-center'>
-                <Image  src="/mail.png" alt='mail' width={46} height={46} className='w-fit h-fit'/>
-                <Link href="https://www.upwork.com/nx/find-work/best-matches" className='underline text-[#080415] font-[500] text-[1.375rem] leading-[136.364%]'>hussainiqtidar80@gmail.com</Link>
-            </div>
-            <div>
-                <Image 
-                src="/navmen.png" alt='cartoon' width={100} height={100}/>
-            </div>
-            <ul className='flex gap-10'>
-                <Link href="/" className='text-[1.125rem] font-[400] text-[#51586A] leading-normal'>Projects</Link>
-                <Link href="/" className='text-[1.125rem] font-[400] text-[#51586A] leading-normal'>Journey</Link>
-                <Link href="/" className='text-[1.125rem] font-[400] text-[#51586A] leading-normal'>Services</Link>
-                <Link href="/" className='text-[1.125rem] font-[400] text-[#51586A] leading-normal'>Contact</Link>
+        {/* Center section (logo or other icon) */}
+        <div className='hidden md:block'>
+          <Image src="/navmen.png" alt='cartoon' width={100} height={100} />
+        </div>
 
+        {/* Right section (navigation links) */}
+        <ul className='hidden md:flex gap-10'>
+          <Link href="/" className='text-lg font-normal text-[#51586A] leading-normal hover:underline'>Projects</Link>
+          <Link href="/" className='text-lg font-normal text-[#51586A] leading-normal hover:underline'>Journey</Link>
+          <Link href="/" className='text-lg font-normal text-[#51586A] leading-normal hover:underline'>Services</Link>
+          <Link href="/" className='text-lg font-normal text-[#51586A] leading-normal hover:underline'>Contact</Link>
+        </ul>
 
-
-            </ul>
-        </main>
+        {/* Mobile navigation (burger icon) */}
+        <div className='md:hidden'>
+          {/* You can add your mobile navigation button here */}
+        </div>
+      </main>
     </section>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
