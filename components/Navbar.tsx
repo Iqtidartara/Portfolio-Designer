@@ -4,12 +4,12 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <section className='w-full bg-white shadow-md'>
-      <main className='mx-auto max-w-[80rem] py-4 md:py-6 flex items-center justify-between'>
+    <section className='w-full bg-[#FBFAFF] shadow-md'>
+      <main className='mx-auto max-w-[80rem] py-4 md:py-6 flex items-center justify-between md:px-0 px-4'>
         {/* Left section */}
         <div className='flex items-center space-x-2 md:space-x-4'>
           <Image src="/mail.png" alt='mail' width={46} height={46} className='w-fit h-fit' />
-          <Link href="https://www.upwork.com/nx/find-work/best-matches" className='underline text-[#080415] font-semibold text-lg leading-tight md:text-xl md:leading-snug'>hussainiqtidar80@gmail.com</Link>
+          <Link href="https://www.upwork.com/freelancers/~01222e98be8ec7c2ba" className='underline text-[#080415] font-semibold text-lg leading-tight md:text-xl md:leading-snug '>hussainiqtidar80@gmail.com</Link>
         </div>
 
         {/* Center section (logo or other icon) */}

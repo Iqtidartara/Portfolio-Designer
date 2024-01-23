@@ -10,7 +10,7 @@ const HomeSection = () => {
         {/* Image div */}
         <div className='flex-shrink-0 w-full md:w-1/2 mb-8 md:mb-0'>
           <Image
-            src='/Group 18482.png'
+            src='/navmen.png'
             alt='portfolio'
             width={514}
             height={605}
@@ -20,10 +20,10 @@ const HomeSection = () => {
         {/* Content div */}
         <div className='p-4 md:p-8 w-full md:w-1/2 flex flex-col'>
           <h2 className='text-4xl md:text-5xl text-[#080415] font-semibold leading-tight tracking-tight'>
-            An Interactive Designer
+            An Interactive Developer
           </h2>
           <p className='text-[#51586A] text-lg md:text-xl font-normal leading-normal mt-4 md:mt-6'>
-            An Interactive Designer merges creativity and technical skills to design captivating digital experiences. They specialize in crafting visually appealing and user-friendly interfaces for websites and applications.
+            An Interactive Developer merges creativity and technical skills to develop captivating digital experiences. They specialize in crafting visually appealing and user-friendly interfaces for websites and applications.
           </p>
 
           <div className='mt-6'>
