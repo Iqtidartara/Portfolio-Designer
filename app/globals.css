@@ -74,3 +74,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.heading{
+  color: #FFF;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 4.125rem; /* 117.857% */
+letter-spacing: -0.14rem;
+}

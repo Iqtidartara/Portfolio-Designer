@@ -30,7 +30,7 @@ const HomeSection = () => {
             <Button className='bg-[#5D3BEE] text-white text-lg md:text-xl py-4 px-6 md:py-6 md:px-8 rounded-none mt-4 md:mt-6'>
               Book a Call
             </Button>
-            <Link href={"/"} className='underline pl-4 md:pl-6 font-semibold text-[#080415] text-lg md:text-xl mt-4 md:mt-6'>
+            <Link href="/" className='underline pl-4 md:pl-6 font-semibold text-[#080415] text-lg md:text-xl mt-4 md:mt-6'>
               My Works
             </Link>
           </div>
