@@ -10,7 +10,7 @@ const HomeSection = () => {
         {/* Image div */}
         <div className='flex-shrink-0 w-full md:w-1/2 mb-8 md:mb-0'>
           <Image
-            src='/navmen.png'
+            src='/bdsk.png'
             alt='portfolio'
             width={514}
             height={605}
