@@ -25,11 +25,11 @@ const specialtiesData = [
 const Specialities = () => {
   return (
     <section className="w-full">
-      <main className="mx-auto max-w-[80rem] py-8 md:py-16">
-        <h1 className="text-[#080415] text-3.5xl font-bold flex items-center justify-center p-6 md:p-12">
+      <main className="mx-auto max-w-[80rem] py-8 md:py-12">
+        <h1 className="text-[#080415] text-3xl font-bold flex items-center justify-center pt-6 md:pt-8">
           Specialities
         </h1>
-        <p className="text-[1.125rem] text-[#51586A] font-normal leading-[166.667%] text-center p-6 md:p-12">
+        <p className="text-[1.125rem] text-[#51586A] font-normal leading-[166.667%] text-center pb-6 md:pb-12">
           As a frontend developer specializing in JavaScript, React, and Next.js
           frameworks, my expertise includes:
         </p>
