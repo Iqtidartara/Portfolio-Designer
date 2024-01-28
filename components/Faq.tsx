@@ -58,7 +58,7 @@ const Faq: React.FC = () => {
               key={`faq-${index}`}
               type="single"
               collapsible
-              className="rounded-md border border-opacity-10 accoedianBorder px-4 bg-[#ccd1d3] p-[1.14rem]"
+              className="rounded-md border border-opacity-10 accoedianBorder px-4 bg-[#e1e3e4] p-[1.14rem]"
             >
               <AccordionItem value={`item-${index}`}>
                 <AccordionTrigger className="text-[#080415] text-[1rem] md:text-center text-start">
